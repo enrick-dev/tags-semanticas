@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  background-color: #271235;
+}
+.containerBack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.perfilImg {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #f1f1f1;
+}
+article {
+  margin: 5rem 0rem 5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.escrita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tituloNome {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.subtitulo {
+  font-size: 1.8rem;
+  color: hwb(0 70% 30%);
+}
+.description {
+  font-size: 1.1rem;
+  max-width: 30rem;
+  text-align: center;
+  color: hwb(0 55% 45% / 0.745);
+}
+.titleSobre {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.descriptionSobre {
+  max-width: 40rem;
+  color: hwb(0 55% 45% / 0.745);
+  text-align: center;
+}
+
+
